@@ -1,0 +1,9 @@
+obj
+*.exe
+*.dll
+*.exp
+*.ilk
+*.lib
+*.pdb
+*.pyd
+*.opensdf

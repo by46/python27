@@ -1,0 +1,10 @@
+.idea
+.vscode
+*.o
+CMakeLists.txt
+config.log
+config.status
+Makefile
+Makefile.pref
+pyconfig.h
+python.bat

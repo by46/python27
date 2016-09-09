@@ -1,0 +1,90 @@
+﻿Build started 2016/9/9 15:10:33.
+     1>Project "D:\Git\Python-2.7.12\PCbuild\ssleay.vcxproj" on node 5 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Git\Python-2.7.12\externals\openssl-1.0.2h\\" /I"D:\Git\Python-2.7.12\externals\openssl-1.0.2h\include64" /I"D:\Git\Python-2.7.12\externals\openssl-1.0.2h\crypto" /I"D:\Git\Python-2.7.12\externals\openssl-1.0.2h\crypto\asn1" /I"D:\Git\Python-2.7.12\externals\openssl-1.0.2h\crypto\evp" /I"D:\Git\Python-2.7.12\externals\openssl-1.0.2h\crypto\modes" /Zi /nologo /W3 /WX- /Od /Oi /D DSO_WIN32 /D WIN32_LEAN_AND_MEAN /D L_ENDIAN /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D OPENSSL_THREADS /D OPENSSL_IA32_SSE2 /D SHA1_ASM /D SHA256_ASM /D SHA512_ASM /D MD5_ASM /D AES_ASM /D VPAES_ASM /D WHIRLPOOL_ASM /D GHASH_ASM /D OPENSSL_NO_IDEA /D OPENSSL_NO_RC5 /D OPENSSL_NO_MD2 /D OPENSSL_NO_MDC2 /D OPENSSL_NO_KRB5 /D OPENSSL_NO_JPAKE /D OPENSSL_NO_RDRAND /D OPENSSL_NO_RSAX /D OPENSSL_NO_DYNAMIC_ENGINE /D WIN32 /D _WIN64 /D _M_X64 /D _DEBUG /GF /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Git\Python-2.7.12\externals\openssl-1.0.2h\tmp\amd64_Debug\ssleay\\" /Fd"D:\Git\Python-2.7.12\externals\openssl-1.0.2h\tmp\amd64_Debug\ssleay\vc110.pdb" /Gd /TC /wd4244 /wd4267 /errorReport:prompt "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\d1_both.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\d1_lib.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\d1_pkt.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\d1_srtp.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_clnt.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_enc.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_lib.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_meth.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_pkt.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_srvr.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s23_clnt.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s23_lib.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s23_meth.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s23_pkt.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s23_srvr.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_both.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_cbc.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_clnt.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_enc.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_lib.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_meth.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_pkt.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_srvr.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_algs.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_asn1.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_cert.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_ciph.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_err.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_err2.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_lib.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_rsa.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_sess.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_clnt.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_enc.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_lib.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_meth.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_reneg.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_srvr.c" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\tls_srp.c"
+         d1_both.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\d1_both.c': No such file or directory
+         d1_lib.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\d1_lib.c': No such file or directory
+         d1_pkt.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\d1_pkt.c': No such file or directory
+         d1_srtp.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\d1_srtp.c': No such file or directory
+         s2_clnt.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_clnt.c': No such file or directory
+         s2_enc.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_enc.c': No such file or directory
+         s2_lib.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_lib.c': No such file or directory
+         s2_meth.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_meth.c': No such file or directory
+         s2_pkt.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_pkt.c': No such file or directory
+         s2_srvr.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s2_srvr.c': No such file or directory
+         s23_clnt.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s23_clnt.c': No such file or directory
+         s23_lib.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s23_lib.c': No such file or directory
+         s23_meth.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s23_meth.c': No such file or directory
+         s23_pkt.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s23_pkt.c': No such file or directory
+         s23_srvr.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s23_srvr.c': No such file or directory
+         s3_both.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_both.c': No such file or directory
+         s3_cbc.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_cbc.c': No such file or directory
+         s3_clnt.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_clnt.c': No such file or directory
+         s3_enc.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_enc.c': No such file or directory
+         s3_lib.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_lib.c': No such file or directory
+         Generating Code...
+         Compiling...
+         s3_meth.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_meth.c': No such file or directory
+         s3_pkt.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_pkt.c': No such file or directory
+         s3_srvr.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\s3_srvr.c': No such file or directory
+         ssl_algs.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_algs.c': No such file or directory
+         ssl_asn1.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_asn1.c': No such file or directory
+         ssl_cert.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_cert.c': No such file or directory
+         ssl_ciph.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_ciph.c': No such file or directory
+         ssl_err.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_err.c': No such file or directory
+         ssl_err2.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_err2.c': No such file or directory
+         ssl_lib.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_lib.c': No such file or directory
+         ssl_rsa.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_rsa.c': No such file or directory
+         ssl_sess.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\ssl_sess.c': No such file or directory
+         t1_clnt.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_clnt.c': No such file or directory
+         t1_enc.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_enc.c': No such file or directory
+         t1_lib.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_lib.c': No such file or directory
+         t1_meth.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_meth.c': No such file or directory
+         t1_reneg.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_reneg.c': No such file or directory
+         t1_srvr.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\t1_srvr.c': No such file or directory
+         tls_srp.c
+     1>c1 : fatal error C1083: Cannot open source file: 'D:\Git\Python-2.7.12\externals\openssl-1.0.2h\ssl\tls_srp.c': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\Git\Python-2.7.12\PCbuild\ssleay.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.87

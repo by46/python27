@@ -1,0 +1,16 @@
+﻿Build started 2016/9/9 15:10:32.
+     1>Project "D:\Git\Python-2.7.12\PCbuild\libeay.vcxproj" on node 4 (Rebuild target(s)).
+     1>BuildNasmFiles:
+         setlocal
+         set PATH=D:\Git\Python-2.7.12\externals\\nasm-2.11.06\;%PATH%
+         nasm.exe -f win64 -DNEAR -Ox -g -o "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\tmp\amd64_Debug\libeay\aesni-sha1-x86_64.obj" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\tmp64\aesni-sha1-x86_64.asm"
+         'nasm.exe' is not recognized as an internal or external command,
+         operable program or batch file.
+     1>D:\Git\Python-2.7.12\PCbuild\openssl.props(66,5): error MSB3073: The command "setlocal
+D:\Git\Python-2.7.12\PCbuild\openssl.props(66,5): error MSB3073: set PATH=D:\Git\Python-2.7.12\externals\\nasm-2.11.06\;%PATH%
+D:\Git\Python-2.7.12\PCbuild\openssl.props(66,5): error MSB3073: nasm.exe -f win64 -DNEAR -Ox -g -o "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\tmp\amd64_Debug\libeay\aesni-sha1-x86_64.obj" "D:\Git\Python-2.7.12\externals\openssl-1.0.2h\tmp64\aesni-sha1-x86_64.asm"" exited with code 9009.
+     1>Done Building Project "D:\Git\Python-2.7.12\PCbuild\libeay.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.19
